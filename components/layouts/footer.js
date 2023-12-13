@@ -7,20 +7,18 @@ const Footer = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4 footer-contact">
-              <h3 style={{ color: "white" }}>Himago Technologies</h3>
+              <h3 style={{ color: "white" }}>Draftsman</h3>
               <p>
-                Prahaladhapuram, Simhachalam Road,
-                <br />
-                Visakhapatnam, Andhra Pradesh (INDIA)
+                India
                 <br />
                 <br />
               </p>
               <p style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-                <strong>Phone:</strong> (+91) 8185065555
+                <strong>Phone:</strong> (+91) 123456789
                 <br />
               </p>
               <p>
-                <strong>Email:</strong> director@himagotech.com
+                <strong>Email:</strong> info@draftsman.com
               </p>
             </div>
 
@@ -87,44 +85,43 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="container d-lg-flex py-4">
-        <div class="mr-lg-auto text-center text-lg-left">
+      <div class="container d-lg-flex py-3 align-items-center">
+        <div class="me-lg-auto text-lg-left">
           <div class="copyright">
             © Copyright{" "}
             <strong>
-              <span>Himago Technologies</span>
+              <span>Draftsman</span>
             </strong>
-            . All Rights Reserved. <br /> Designed by{" "}
-            <a href="http://www.srisaisolutions.in/">Sri Sai Solutions</a>
+            . All Rights Reserved.
           </div>
         </div>
         <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
           <a
-            href="https://twitter.com/detailinghimago/status/1304441750144999425?s=21"
+            // href="https://twitter.com/detailinghimago/status/1304441750144999425?s=21"
             class="twitter"
             target="_blank"
           >
             <i class="bx bxl-twitter"></i>
           </a>
           <a
-            href="https://www.facebook.com/himago.himago.90"
+            // href="https://www.facebook.com/himago.himago.90"
             class="facebook"
             target="_blank"
           >
             <i class="bx bxl-facebook"></i>
           </a>
           <a
-            href="https://www.instagram.com/p/CEgf5pcjtPQ/?igshid=1cpkf9dwq5xp8"
+            // href="https://www.instagram.com/p/CEgf5pcjtPQ/?igshid=1cpkf9dwq5xp8"
             class="instagram"
             target="_blank"
           >
             <i class="bx bxl-instagram"></i>
           </a>
-          <a href="mailto:director@himagotech.com" class="google-plus">
+          <a href="mailto:info@draftsman.com" class="google-plus">
             <i class="bx bxl-internet-explorer"></i>
           </a>
           <a
-            href="http://linkedin.com/in/himagotech"
+            // href="http://linkedin.com/in/himagotech"
             class="linkedin"
             target="_blank"
           >

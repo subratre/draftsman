@@ -1,3 +1,4 @@
+import ExpertiseSection from "@/components/ExpertiseSection";
 import React, { useEffect } from "react";
 
 const HomePage = () => {
@@ -251,6 +252,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <ExpertiseSection />
     </>
   );
 };

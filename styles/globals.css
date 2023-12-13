@@ -98,6 +98,46 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .cta a:hover {
   background: #ff6b3b;
 }
+.owl-dot.active {
+  background-color: #ff5821 !important;
+}
+.owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+button.owl-dot span {
+  margin-left: 1px !important;
+  top: 53px;
+  /* position: absolute; */
+  background: none !important;
+}
+.back-to-top {
+  opacity: 0;
+  visibility: hidden;
+  transition: display 0.5s ease-in-out;
+  cursor: pointer;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+section.expertise ul {
+  column-count: 2;
+  margin: 0;
+  padding: 0;
+}
+.contact-banner{
+  background-image: url(/assets/images/Banner2.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /*--------------------------------------------------------------
 # Header
