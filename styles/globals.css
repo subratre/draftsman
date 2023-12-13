@@ -137,7 +137,36 @@ section.expertise ul {
     background-size: cover;
     background-repeat: no-repeat;
 }
+btn-success:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
 
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+section.expertise.p-0 {
+  margin-bottom: 27px;
+}
+
+section.expertise {
+  padding-top: 10px;
+}
+section.expertise.aos-init.aos-animate ul li {
+  background: #787270;
+  margin-bottom: 18px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  gap: 6px;
+}
+section.expertise.aos-init.aos-animate ul li:hover {
+  background: #ff774a;
+}
 
 /*--------------------------------------------------------------
 # Header
