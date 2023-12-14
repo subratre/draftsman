@@ -1,8 +1,12 @@
+import Head from "next/head";
 import React from "react";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>Draftsman | About</title>
+      </Head>
       <section className="contact-banner"></section>
       <section id="about1" style={{ backgroundColor: "white" }}>
         <div class="container">

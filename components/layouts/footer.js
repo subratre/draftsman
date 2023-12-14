@@ -1,6 +1,9 @@
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 const Footer = () => {
+  const currentRoute = usePathname();
   return (
     <footer id="footer">
       <div class="footer-top">
@@ -25,35 +28,61 @@ const Footer = () => {
             <div class="col-lg-4 col-md-4 footer-links">
               <h4 style={{ color: "white" }}>OUR SERVICES</h4>
               <ul>
-                <li>
+                <li
+                  className={
+                    currentRoute === "/non-structural-steel-works"
+                      ? "active"
+                      : ""
+                  }
+                >
                   <i class="bx bx-chevron-right"></i>
-                  <a href="Building-Information-Modeling.aspx">
-                    Building Information Modeling (BIM)
-                  </a>
+                  <Link href="/non-structural-steel-works">
+                    Non-Structural Steel Works
+                  </Link>
                 </li>
-                <li>
+                <li
+                  className={
+                    currentRoute === "/structural-steel-works" ? "active" : ""
+                  }
+                >
                   <i class="bx bx-chevron-right"></i>
-                  <a href="Structural-Steel-Detailing.aspx">
-                    Structural Steel Detailing
-                  </a>
+                  <Link href="/structural-steel-works">
+                    Structural Steel Works
+                  </Link>
                 </li>
-                <li>
+                <li
+                  className={
+                    currentRoute === "/tensile-fabric-structure" ? "active" : ""
+                  }
+                >
                   <i class="bx bx-chevron-right"></i>
-                  <a href="Structural-Steel-Estimating-Services.aspx">
-                    Structural Steel Estimating Services
-                  </a>
+                  <Link href="/tensile-fabric-structure">
+                    Tensile Fabric Structure (HDPE & PVC)
+                  </Link>
                 </li>
-                <li>
+                <li
+                  className={
+                    currentRoute === "/design-calculation-and-analysis-service"
+                      ? "active"
+                      : ""
+                  }
+                >
                   <i class="bx bx-chevron-right"></i>
-                  <a href="Rebar-Precast-Detaling.aspx">
-                    Rebar &amp; Precast Detailing
-                  </a>
+                  <Link href="/design-calculation-and-analysis-service">
+                    Design Calculation & Analysis service
+                  </Link>
                 </li>
-                <li>
+                <li
+                  className={
+                    currentRoute === "/hire-a-professional-reviewer"
+                      ? "active"
+                      : ""
+                  }
+                >
                   <i class="bx bx-chevron-right"></i>
-                  <a href="Plant-Engineering-Design-Services.aspx">
-                    Plant Engineering Design Services
-                  </a>
+                  <Link href="/hire-a-professional-reviewer">
+                    Hire a Professional Reviewer
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -62,23 +91,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="Projects.aspx">Main Steel Structure</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="Projects.aspx">Architecture Steel Structure</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="Projects.aspx">Bridge &amp; Elevated Walk</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="Projects.aspx">Miscellaneous Steel Structure</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="Projects.aspx">Rebar Steel Structure</a>
+                  <Link href="/">will be added soon</Link>
                 </li>
               </ul>
             </div>

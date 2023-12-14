@@ -1,15 +1,29 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Navigation = () => {
   const currentRoute = usePathname();
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 37);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   console.log(currentRoute);
   return (
     <div
       id="header-sticky-wrapper"
-      className="sticky-wrapper"
+      className={isScrolled ? "fixedmenu" : ""}
       style={{ height: "70px;" }}
     >
       <header id="header" style={{ width: "1351px" }}>
@@ -31,30 +45,59 @@ const Navigation = () => {
               <li className="drop-down">
                 <a href="#">Services</a>
                 <ul>
-                  <li>
-                    <a href="Building-Information-Modeling.aspx">
-                      Building Information Modeling (BIM)
-                    </a>
+                  <li
+                    className={
+                      currentRoute === "/non-structural-steel-works"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/non-structural-steel-works">
+                      Non-Structural Steel Works
+                    </Link>
                   </li>
-                  <li>
-                    <a href="Structural-Steel-Detailing.aspx">
-                      Structural Steel Detailing
-                    </a>
+                  <li
+                    className={
+                      currentRoute === "/structural-steel-works" ? "active" : ""
+                    }
+                  >
+                    <Link href="/structural-steel-works">
+                      Structural Steel Works
+                    </Link>
                   </li>
-                  <li>
-                    <a href="Structural-Steel-Estimating-Services.aspx">
-                      Structural Steel Estimating Services
-                    </a>
+                  <li
+                    className={
+                      currentRoute === "/tensile-fabric-structure"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/tensile-fabric-structure">
+                      Tensile Fabric Structure (HDPE & PVC)
+                    </Link>
                   </li>
-                  <li>
-                    <a href="Rebar-Precast-Detaling.aspx">
-                      Rebar &amp; Precast Detailing
-                    </a>
+                  <li
+                    className={
+                      currentRoute ===
+                      "/design-calculation-and-analysis-service"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/design-calculation-and-analysis-service">
+                      Design Calculation & Analysis service
+                    </Link>
                   </li>
-                  <li>
-                    <a href="Plant-Engineering-Design-Services.aspx">
-                      Plant Engineering Design Services
-                    </a>
+                  <li
+                    className={
+                      currentRoute === "/hire-a-professional-reviewer"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/hire-a-professional-reviewer">
+                      Hire a Professional Reviewer
+                    </Link>
                   </li>
                 </ul>
               </li>

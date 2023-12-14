@@ -1,9 +1,14 @@
 import ExpertiseSection from "@/components/ExpertiseSection";
+import Head from "next/head";
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 const HomePage = () => {
   return (
     <>
+      <Head>
+        <title>Draftsman</title>
+      </Head>
       <section
         id="one"
         style={{
@@ -20,7 +25,7 @@ const HomePage = () => {
         {/* 
   <div className="container">
       
-      <h1>Himago Technologies</h1>
+      <h1>Draftsman Technologies</h1>
       <h2>Specialist in Steel Detailing and BIM modelling in Tekla</h2>-->
 
       <div className="d-flex align-items-center">
@@ -164,12 +169,12 @@ const HomePage = () => {
                   </h5>
                   <p class="card-text">
                     BIM is increasingly essential for modern construction
-                    industries. Here in HIMAGO...
+                    industries. Here in Draftsman...
                   </p>
                   <div class="read-more">
-                    <a href="Building-Information-Modeling.aspx">
+                    <Link href="/">
                       <i class="icofont-arrow-right"></i> Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -188,13 +193,13 @@ const HomePage = () => {
                     <a href="">Structural Steel Detailing</a>
                   </h5>
                   <p class="card-text">
-                    Himago Technologies supports your organization by providing
-                    accurate and cost...
+                    Draftsman Technologies supports your organization by
+                    providing accurate and cost...
                   </p>
                   <div class="read-more">
-                    <a href="Structural-Steel-Detailing.aspx">
+                    <Link href="/">
                       <i class="icofont-arrow-right"></i> Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -217,9 +222,9 @@ const HomePage = () => {
                     Drawing in steel...
                   </p>
                   <div class="read-more">
-                    <a href="Rebar-Precast-Detaling.aspx">
+                    <Link href="/">
                       <i class="icofont-arrow-right"></i> Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -238,13 +243,13 @@ const HomePage = () => {
                     <a href="">Plant Engineering Design Services</a>
                   </h5>
                   <p class="card-text">
-                    HIMAGO Technologies provides wide range of services in Plant
-                    Design Engineering...
+                    Draftsman Technologies provides wide range of services in
+                    Plant Design Engineering...
                   </p>
                   <div class="read-more">
-                    <a href="Plant-Engineering-Design-Services.aspx">
+                    <Link href="/">
                       <i class="icofont-arrow-right"></i> Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
