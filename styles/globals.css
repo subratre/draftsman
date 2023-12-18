@@ -169,10 +169,13 @@ section.expertise.aos-init.aos-animate ul li {
 section.expertise.aos-init.aos-animate ul li:hover {
   background: #ff774a;
 }
-.fixedmenu {
-  position: fixed;
-  top: 0;
-  z-index: 9;
+
+  .fixedmenu {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+
 }
 
 /*--------------------------------------------------------------
@@ -523,7 +526,7 @@ section.expertise.aos-init.aos-animate ul li:hover {
   
 }
 @media(max-width: 576px) {
-  .mobile nav.nav-menu.d-none.d-lg-block {
+  .mobile nav.nav-menu.d-lg-block {
     display: block;
     position: fixed;
     right: 0;
@@ -533,9 +536,9 @@ section.expertise.aos-init.aos-animate ul li:hover {
     width: 59%;
 }
 
-.mobile nav.nav-menu.d-none.d-lg-block ul {display: flex;flex-direction: column;height: 500px;z-index: 9999;}
+.mobile nav.nav-menu.d-lg-block ul {display: flex;flex-direction: column;height: 500px;z-index: 9999;}
 
-.mobile nav.nav-menu.d-none.d-lg-block .drop-down ul {
+.mobile nav.nav-menu.d-lg-block .drop-down ul {
     box-shadow: none;
 }
 

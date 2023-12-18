@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 const Navigation = () => {
   const currentRoute = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isShowMenu, setIsShowMenu] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -19,6 +20,10 @@ const Navigation = () => {
     };
   }, []);
 
+  const showMobileMenu = () => {
+    setIsShowMenu(true);
+  };
+
   console.log(currentRoute);
   return (
     <div
@@ -30,11 +35,15 @@ const Navigation = () => {
         <div className="container d-flex align-items-center mobile">
           <div className="logo me-auto">
             <Link href="/" className="logologo">
-              <h4>Draftsmans</h4>
+              <h4 className="m-0">Draftsmans</h4>
             </Link>
           </div>
 
-          <nav className="nav-menu d-none d-lg-block">
+          <div className="humberg" onClick={showMobileMenu}>
+            <i className="fa fa-bars" style={{ fontSize: 20 }}></i>
+          </div>
+
+          <nav className={`nav-menu ${!isShowMenu ? "d-none" : ""} d-lg-block`}>
             <ul>
               <li className={currentRoute === "/" ? "active" : ""}>
                 <Link href="/">Home</Link>
