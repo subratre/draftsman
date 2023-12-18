@@ -44,6 +44,9 @@ const Navigation = () => {
           </div>
 
           <nav className={`nav-menu ${!isShowMenu ? "d-none" : ""} d-lg-block`}>
+            <span className="timecross" onClick={() => setIsShowMenu(false)}>
+              &times;
+            </span>
             <ul>
               <li className={currentRoute === "/" ? "active" : ""}>
                 <Link href="/">Home</Link>
