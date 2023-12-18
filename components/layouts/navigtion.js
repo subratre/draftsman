@@ -26,8 +26,8 @@ const Navigation = () => {
       className={isScrolled ? "fixedmenu" : ""}
       style={{ height: "70px;" }}
     >
-      <header id="header" style={{ width: "1351px" }}>
-        <div className="container d-flex align-items-center">
+      <header id="header">
+        <div className="container d-flex align-items-center mobile">
           <div className="logo me-auto">
             <Link href="/" className="logologo">
               <h4>Draftsmans</h4>

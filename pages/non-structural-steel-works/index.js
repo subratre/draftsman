@@ -10,8 +10,23 @@ const NonStructralSteelWorks = () => {
       <section className="non-structral"></section>
       <section className="non-ul-data">
         <center>
-          <h2>Non-Structure Steel </h2>
+          <h2>Non-Structure Steel Works</h2>
         </center>
+        <div className="container">
+          <p>
+            We provide engineering Drawing services for non-structural &
+            Architectural metal segments for projects involving Airports,
+            Universities, Private Villas, Schools, Govt. Institutions,
+            Construction building etc. Creating Sketches, Proposal Drawings,
+            Design Calculation, Shop drawings until get approved from concern
+            Consultant / Municipality / Main Contractors by continuous
+            coordination and red line markup comments incorporation to the to
+            Shop drawings for submission. Our Experienced Draftsmans team having
+            prior field experience for the Non Structural & Architectural metal
+            projects which enable us to achieve target time frame scheduled as
+            per commitment to our valuable client.
+          </p>
+        </div>
         <div className="container mt-4">
           <div className="row">
             <ul>

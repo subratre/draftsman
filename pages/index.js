@@ -45,7 +45,7 @@ const HomePage = () => {
                 <div align="center">
                   {/* <img src="assets/img/Top_Blue_Logo.jpg" className="img-fluid" /> */}
                   <h3>DraftsMan</h3>
-                  <h4>Why Choose Draftsmans Technologies ?</h4>
+                  <h4>Why Choose Draftsmans.com?</h4>
                 </div>
                 <p align="Justify">
                   Draftsmans.com is an emerging engineering solution company. We
@@ -56,9 +56,9 @@ const HomePage = () => {
                   industries, consultants & contractors.
                 </p>
                 <div className="text-center">
-                  <a href="AboutUs.aspx" className="more-btn">
+                  <Link href="/about" className="more-btn">
                     Read More <i className="bx bx-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -82,8 +82,9 @@ const HomePage = () => {
                         3D Modeling/CAD
                       </h2>
                       <p>
-                        Process, Piping, Equipment, Civil &amp; Structural,
-                        Electrical &amp; Instrumentation
+                        Using TEKLA, AutoCAD, Advance Steel Works (ASW), Revit,
+                        Idea Statica etc to Define Structural & Non Structural
+                        drawing works.
                       </p>
                     </div>
                   </div>
@@ -104,8 +105,9 @@ const HomePage = () => {
                         Design &amp; Details Engineering
                       </h2>
                       <p>
-                        Process, Piping, Equipment, Civil &amp; Structural,
-                        Electrical &amp; Instrumentation
+                        Structural Steel, Non Structural Steel, Tensile Membrane
+                        Structure, Architectural Metal works Detailed Shop
+                        drawing and Design Calculation Services.
                       </p>
                     </div>
                   </div>
@@ -123,11 +125,12 @@ const HomePage = () => {
                           color: "#000000",
                         }}
                       >
-                        Laser Scan 3D Modeling
+                        Hire an Experienced Reviewer/Checker
                       </h2>
                       <p>
-                        Process, Piping, Equipment, Civil &amp; Structural,
-                        Electrical &amp; Instrumentation
+                        Hire a Gulf experienced Senior Engineers as reviewer or
+                        checker for all the detailed shop drawings output and
+                        Design Calculation for peace of mind and save time.
                       </p>
                     </div>
                   </div>

@@ -520,10 +520,26 @@ section.expertise.aos-init.aos-animate ul li:hover {
   #hero {
     margin-bottom: -150px;
   }
+  
+}
+@media(max-width: 576px) {
+  .mobile nav.nav-menu.d-none.d-lg-block {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: 9;
+    width: 59%;
+}
+
+.mobile nav.nav-menu.d-none.d-lg-block ul {display: flex;flex-direction: column;height: 500px;z-index: 9999;}
+
+.mobile nav.nav-menu.d-none.d-lg-block .drop-down ul {
+    box-shadow: none;
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
