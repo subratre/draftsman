@@ -30,6 +30,10 @@ const Navigation = () => {
     setIsShowDropDown(!isSHowDropDown);
   };
 
+  useEffect(() => {
+    setIsShow(!isShow);
+  }, [currentRoute]);
+
   console.log(currentRoute);
   return (
     <div
