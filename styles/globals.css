@@ -169,13 +169,76 @@ section.expertise.aos-init.aos-animate ul li {
 section.expertise.aos-init.aos-animate ul li:hover {
   background: #ff774a;
 }
+.fixedmenu {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width:100%
+}
+span.humbergs{
+  cursor: pointer;
+}
 
-  .fixedmenu {
-    position: fixed;
-    top: 0;
-    z-index: 9;
-    width: 100%;
+@media(min-width:577px){
+  span.humbergs {
+    display: none;
+    cursor: pointer;
+  }
+}
+.navmobile {
+  position: fixed;
+  z-index: 999;
+  background: #ff5821;
+  height: 100%;
+  width: 100%;
+  top: 70px;
+}
+.closemenu {
+  position: absolute;
+  right: 15px;
+}
 
+.humbergs span {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+@media(min-width:576px) {
+  .humbergs{
+    display: none;
+  }
+}
+.navmobile .drop-down {
+  position: relative;
+}
+
+
+.navmobile .fa-caret-down {
+  position: absolute;
+  left: 80px;
+  font-size: 18px;
+  top: 9px;
+  color: #fff;
+}
+
+.navmobile ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.navmobile .childDrop {
+  display: none;
+}
+.navmobile li a {
+  color: #fff;
+  padding:;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navmobile li {
+  padding: 5px 14px;
 }
 
 /*--------------------------------------------------------------
@@ -486,11 +549,6 @@ section.expertise.aos-init.aos-animate ul li:hover {
   z-index: 5;
   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
 }
-@media(min-width:577px) {
-  .humberg,.timecross{
-    display: none !important;
-  }
-}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -528,43 +586,10 @@ section.expertise.aos-init.aos-animate ul li:hover {
   #hero {
     margin-bottom: -150px;
   }
-  
 }
-@media(max-width: 576px) {
-  .mobile nav.nav-menu.d-lg-block {
-    display: block;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background: #fff;
-    z-index: 9;
-    width: 59%;
-    height:100vh;
-}
-
-.mobile nav.nav-menu.d-lg-block ul {display: flex;flex-direction: column;height: 500px;z-index: 9999;}
-
-.mobile nav.nav-menu.d-lg-block .drop-down ul {
-    box-shadow: none;
-}
-span.timecross {
-  position: absolute;
-  font-size: 31px;
-  right: 10px;
-  background: #e1dfe3;
-  height: 28px;
-  line-height: 27px;
-  top: 17px;
-  color: #7a7777;
-  width: 28px;
-  border-radius: 50%;
-  text-align: center;
-  z-index: 9999;
-  cursor: pointer;
-}
-
 
 @media (max-width: 768px) {
+  #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
