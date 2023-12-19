@@ -31,13 +31,6 @@ const Navigation = () => {
     setIsShowDropDown(!isSHowDropDown);
   };
 
-  useEffect(() => {
-    setIsShow(!isShow);
-    if (window.innerWidth > 576) {
-      setIsShow(false);
-    }
-  }, [currentRoute]);
-
   console.log(currentRoute);
   return (
     <div
@@ -61,7 +54,11 @@ const Navigation = () => {
             <motion.div
               className="navmobile"
               initial={{ x: "100%" }}
-              animate={{ x: isShow ? 0 : "100%" }}
+              animate={{
+                x: isShow ? 0 : "100%",
+                width: isShow ? "100%" : "0%",
+              }}
+              transition={{ duration: 0.3 }}
             >
               <ul>
                 <li className={currentRoute === "/" ? "active" : ""}>
