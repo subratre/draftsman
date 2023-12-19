@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import MobilNav from "../MobilNav";
 
 const Navigation = () => {
+  const router = useRouter();
   const currentRoute = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isShow, setIsShow] = useState(false);
@@ -30,6 +32,22 @@ const Navigation = () => {
   const showInnerDropdown = () => {
     setIsShowDropDown(!isSHowDropDown);
   };
+
+  useEffect(() => {
+    const closeMenu = () => {
+      setIsShow(false);
+    };
+
+    const handleRouteChange = () => {
+      closeMenu();
+    };
+
+    router.events.on("routeChangeStart", handleRouteChange);
+
+    return () => {
+      router.events.off("routeChangeStart", handleRouteChange);
+    };
+  }, [router]);
 
   console.log(currentRoute);
   return (
