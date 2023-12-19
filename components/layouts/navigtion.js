@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -32,6 +33,9 @@ const Navigation = () => {
 
   useEffect(() => {
     setIsShow(!isShow);
+    if (window.innerWidth > 576) {
+      setIsShow(false);
+    }
   }, [currentRoute]);
 
   console.log(currentRoute);
@@ -54,7 +58,11 @@ const Navigation = () => {
           </div>
 
           <MobilNav show={isShow}>
-            <div className="navmobile">
+            <motion.div
+              className="navmobile"
+              initial={{ x: "100%" }}
+              animate={{ x: isShow ? 0 : "100%" }}
+            >
               <ul>
                 <li className={currentRoute === "/" ? "active" : ""}>
                   <Link href="/">Home</Link>
@@ -139,7 +147,7 @@ const Navigation = () => {
                   <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
-            </div>
+            </motion.div>
           </MobilNav>
 
           <nav className="nav-menu d-none d-lg-block">

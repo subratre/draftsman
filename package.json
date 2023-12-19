@@ -11,6 +11,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
+    "framer-motion": "^10.16.16",
     "jquery": "^3.7.1",
     "next": "13.5.6",
     "nodemailer": "^6.9.7",
