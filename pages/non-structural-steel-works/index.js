@@ -12,20 +12,165 @@ const NonStructralSteelWorks = () => {
         <center>
           <h2>Non-Structure Steel Works</h2>
         </center>
-        <div className="container">
-          <p>
-            We provide engineering Drawing services for non-structural &
-            Architectural metal segments for projects involving Airports,
-            Universities, Private Villas, Schools, Govt. Institutions,
-            Construction building etc. Creating Sketches, Proposal Drawings,
-            Design Calculation, Shop drawings until get approved from concern
-            Consultant / Municipality / Main Contractors by continuous
-            coordination and red line markup comments incorporation to the to
-            Shop drawings for submission. Our Experienced Draftsmans team having
-            prior field experience for the Non Structural & Architectural metal
-            projects which enable us to achieve target time frame scheduled as
-            per commitment to our valuable client.
-          </p>
+        <div className="container mt-4">
+          <div className="row">
+            <div className="col-md-6">
+              {" "}
+              <p align="justify">
+                We provide engineering Drawing services for non-structural &
+                Architectural metal segments for projects involving Airports,
+                Universities, Private Villas, Schools, Govt. Institutions,
+                Construction building etc.
+              </p>
+              <p align="justify">
+                Creating Sketches, Proposal Drawings, Design Calculation, Shop
+                drawings until get approved from concern Consultant /
+                Municipality / Main Contractors by continuous coordination and
+                red line markup comments incorporation to the to Shop drawings
+                for submission.
+              </p>
+              <p align="justify">
+                Our Experienced Draftsmans team having prior field experience
+                for the Non Structural & Architectural metal projects which
+                enable us to achieve target time frame scheduled as per
+                commitment to our valuable client.
+              </p>
+              <div className="listitem">
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Using computer-aided design (CAD), TEKLA, Advance Steel
+                    Works (ASW), Revit software to create 3D models of the
+                    structural steel components for visualization and analysis.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Creating detailed shop drawings that provide precise
+                    specifications for each steel component.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Including information on dimensions, materials, welding
+                    details, and other specifications.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Collaborating with architects, civil engineers, and other
+                    professionals to ensure proper integration of the structural
+                    steel components into the overall project.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Ensuring that all drawings comply with relevant industry
+                    codes and standards.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Making revisions to drawings as needed based on feedback,
+                    changes in design, or site conditions.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Implementing quality control measures to ensure accuracy and
+                    adherence to specifications.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span>
+                    Estimating the quantities of materials needed for
+                    fabrication and construction.
+                  </span>
+                </div>
+                <div className="grop-items">
+                  <span>-</span>
+                  <span align="justify">
+                    Specifying the type, grade, and size of steel materials to
+                    be used in the construction.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" align="center">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="/assets/images/00-High-Rise-Buildings.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="/assets/images/04-warehouse.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <br />
+                  <img src="/assets/images/01-BIM.jpg" alt="" width="100%" />
+                </div>
+                <div class="col-lg-6">
+                  <br />
+                  <img
+                    src="/assets/images/03-rebarDetailing.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <br />
+                  <img
+                    src="/assets/images/02-oilandgas.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <br />
+                  <img
+                    src="/assets/images/05-Indust-comercial-buildings.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <br />
+                  <img
+                    src="/assets/images/06-Misc-structures.jpg"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <br />
+                </div>
+              </div>
+            </div>
+            <p>
+              Here under some of standard Non Structural & Architectural metal
+              works lists which we have expertise for approval as follows:-
+            </p>
+          </div>
         </div>
         <div className="container mt-4">
           <div className="row">
