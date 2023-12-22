@@ -2408,7 +2408,8 @@ section.non-ul-data ul {
 section.non-ul-data ul li {
   display: flex;
   gap:10px;
-  background: #787373;
+  /* background: #787373; */
+  background-color: #092553;
   margin: 9px 2px;
   padding: 10px;
   border-radius: 4px;
