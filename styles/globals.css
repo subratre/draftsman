@@ -52,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #006699;
+  /* background: #006699; */
+  background-color: #092553;
   font-size: 14px;
   padding: 0;
   color: rgba(255, 255, 255, 0.8);
@@ -156,7 +157,8 @@ section.expertise {
   padding-top: 10px;
 }
 section.expertise.aos-init.aos-animate ul li {
-  background: #787270;
+  /* background: #787270; */
+  background-color: #092553;
   margin-bottom: 18px;
   color: #fff;
   padding: 10px;
@@ -679,7 +681,8 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background: #0099CC;
+  /* background: #0099CC; */
+  background-color: #092553;
   border-radius: 4px;
   color: #fff;
 }
@@ -2222,7 +2225,12 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #0099CC;
+  /* background: #0099CC; */
+  background-color: #092553;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 54px 0;
+    position: relative;
+    z-index: 1;
 }
 
 #footer .footer-top .footer-contact {
@@ -2459,4 +2467,33 @@ section.profesional-reviewer {
 }
 .tructureitemlidting .item {
   margin-top: 10px;
+}
+.tructureitemlidting.hire-a-professional .item {
+  margin-left: 38px;
+  margin-top: 17px;
+}
+#footer .footer-top:before {
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+#footer .footer-top:before {
+  opacity: 1;
+}
+#footer .footer-top:before {
+  background-image: url(https://buildico.dynamiclayers.net/wp-content/uploads/2022/03/map-pattern-light.png);
+  opacity: 1;
+}
+.footer-bottom {
+  background-color: #092553;
+  color: #ddd;
+  padding: 0;
+  display: block;
+  text-align: center;
 }

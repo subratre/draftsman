@@ -98,48 +98,50 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="container d-lg-flex py-3 align-items-center">
-        <div class="me-lg-auto text-lg-left">
-          <div class="copyright">
-            © Copyright{" "}
-            <strong>
-              <span>Draftsman</span>
-            </strong>
-            . All Rights Reserved.
+      <div className="footer-bottom">
+        <div class="container d-lg-flex py-3 align-items-center ">
+          <div class="me-lg-auto text-lg-left">
+            <div class="copyright">
+              © Copyright{" "}
+              <strong>
+                <span>Draftsman</span>
+              </strong>
+              . All Rights Reserved.
+            </div>
           </div>
-        </div>
-        <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-          <a
-            // href="https://twitter.com/detailinghimago/status/1304441750144999425?s=21"
-            class="twitter"
-            target="_blank"
-          >
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <a
-            // href="https://www.facebook.com/himago.himago.90"
-            class="facebook"
-            target="_blank"
-          >
-            <i class="bx bxl-facebook"></i>
-          </a>
-          <a
-            // href="https://www.instagram.com/p/CEgf5pcjtPQ/?igshid=1cpkf9dwq5xp8"
-            class="instagram"
-            target="_blank"
-          >
-            <i class="bx bxl-instagram"></i>
-          </a>
-          <a href="mailto:info@draftsman.com" class="google-plus">
-            <i class="bx bxl-internet-explorer"></i>
-          </a>
-          <a
-            // href="http://linkedin.com/in/himagotech"
-            class="linkedin"
-            target="_blank"
-          >
-            <i class="bx bxl-linkedin"></i>
-          </a>
+          <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+            <a
+              // href="https://twitter.com/detailinghimago/status/1304441750144999425?s=21"
+              class="twitter"
+              target="_blank"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a
+              // href="https://www.facebook.com/himago.himago.90"
+              class="facebook"
+              target="_blank"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              // href="https://www.instagram.com/p/CEgf5pcjtPQ/?igshid=1cpkf9dwq5xp8"
+              class="instagram"
+              target="_blank"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="mailto:info@draftsman.com" class="google-plus">
+              <i class="bx bxl-internet-explorer"></i>
+            </a>
+            <a
+              // href="http://linkedin.com/in/himagotech"
+              class="linkedin"
+              target="_blank"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
