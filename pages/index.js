@@ -14,7 +14,7 @@ const HomePage = () => {
         style={{
           width: "100%",
           height: "60vh",
-          background: "url('assets/images/hero-bg.jpg') center center",
+          background: "url('assets/hom/homepage.jpg') center center",
           backgroundSize: "cover",
           position: "relative",
           zIndex: 1,
