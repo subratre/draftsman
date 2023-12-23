@@ -206,6 +206,10 @@ span.humbergs{
 }
 
 @media(min-width:576px) {
+
+  .gallery{
+    columns:1
+  }
   .humbergs{
     display: none;
   }
