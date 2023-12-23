@@ -105,64 +105,89 @@ const NonStructralSteelWorks = () => {
             </div>
             <div class="col-lg-6" align="center">
               <div class="row">
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/00-High-Rise-Buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/04-warehouse.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img src="/assets/images/01-BIM.jpg" alt="" width="100%" />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/03-rebarDetailing.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/02-oilandgas.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/05-Indust-comercial-buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/06-Misc-structures.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
+                <div className="gallery">
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/glass balustrade 03.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/Glass balustrade 01.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/Grating 01.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/handrail 02.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/pegola 02.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/non-structural/pergola 01.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/non-structural/spiral stair.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/non-structural/spiral stair 01.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/non-structural/staircase 01.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/non-structural/staircase 02.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/non-structural/staircase 03.webp"
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

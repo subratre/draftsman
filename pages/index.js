@@ -168,14 +168,15 @@ const HomePage = () => {
               >
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="">Building Information Modeling (BIM)</a>
+                    <a href="">Non-Structure Steel Works</a>
                   </h5>
                   <p class="card-text">
-                    BIM is increasingly essential for modern construction
-                    industries. Here in Draftsman...
+                    We provide engineering Drawing services for non-structural &
+                    Architectural metal segments for projects involving
+                    Airports, Universities...
                   </p>
                   <div class="read-more">
-                    <Link href="/">
+                    <Link href="/non-structural-steel-works">
                       <i class="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
@@ -193,14 +194,14 @@ const HomePage = () => {
               >
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="">Structural Steel Detailing</a>
+                    <a href="">Structure Steel Works</a>
                   </h5>
                   <p class="card-text">
-                    Draftsman Technologies supports your organization by
-                    providing accurate and cost...
+                    Structural steel drawing services involve creating detailed
+                    shop drawings and plans for the fabrication and erection...
                   </p>
                   <div class="read-more">
-                    <Link href="/">
+                    <Link href="/structural-steel-works">
                       <i class="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
@@ -218,14 +219,15 @@ const HomePage = () => {
               >
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="">Rebar &amp; Precast Detailing</a>
+                    <a href="">Tensile Structural Works</a>
                   </h5>
                   <p class="card-text">
-                    Rebar detailing is a detailed process of preparing Shop
-                    Drawing in steel...
+                    Tensile structure design and drawing services involve
+                    creating plans and specifications for structures that
+                    utilize tensile fabric...
                   </p>
                   <div class="read-more">
-                    <Link href="/">
+                    <Link href="/tensile-fabric-structure">
                       <i class="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
@@ -243,14 +245,15 @@ const HomePage = () => {
               >
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="">Plant Engineering Design Services</a>
+                    <a href="">Design Calculation And Analysis Service</a>
                   </h5>
                   <p class="card-text">
-                    Draftsman Technologies provides wide range of services in
-                    Plant Design Engineering...
+                    We provide complete engineering solution including design
+                    calculation for steel structure or Non- structure works with
+                    the facility...
                   </p>
                   <div class="read-more">
-                    <Link href="/">
+                    <Link href="/design-calculation-and-analysis-service">
                       <i class="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
