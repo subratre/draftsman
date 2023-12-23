@@ -207,9 +207,7 @@ span.humbergs{
 
 @media(min-width:576px) {
 
-  .gallery{
-    columns:1
-  }
+
   .humbergs{
     display: none;
   }
@@ -592,7 +590,14 @@ span.humbergs{
   }
 }
 
+@media(max-width:768px) {
+  .gallery{
+    columns:1
+  }
+}
+
 @media (max-height: 768px) {
+
   #hero {
     margin-bottom: -150px;
   }
