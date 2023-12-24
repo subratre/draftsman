@@ -112,6 +112,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Glass Balustrade</div>
                   </div>
                   <div className="gallery-item">
                     <img
@@ -119,6 +120,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Glass Balustrade</div>
                   </div>
                   <div className="gallery-item">
                     <img
@@ -126,6 +128,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Grating</div>
                   </div>
                   <div className="gallery-item">
                     <img
@@ -133,6 +136,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Handrail</div>
                   </div>
                   <div className="gallery-item">
                     <img
@@ -140,6 +144,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Pegola</div>
                   </div>
                   <div className="gallery-item">
                     <img
@@ -147,6 +152,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Pergola</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -155,6 +161,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Spiral Stair</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -163,6 +170,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Spiral Stair</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -171,6 +179,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Staircase</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -179,6 +188,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Staircase</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -187,6 +197,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
+                    <div className="inneritem">Glass Balustrade</div>
                   </div>
                 </div>
               </div>
