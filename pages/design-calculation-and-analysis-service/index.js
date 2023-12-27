@@ -12,6 +12,7 @@ const DesignCalculationService = () => {
         <div className="container">
           <center>
             <h2>Design Calculation And Analysis Service</h2>
+            <h5>Concept Creating, Design, Drawing & Approval</h5>
           </center>
           <div className="row mt-4">
             <div className="col-lg-6">

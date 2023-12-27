@@ -12,6 +12,7 @@ const TensilStructuralWorks = () => {
         <div className="container">
           <center>
             <h2>Tensile Structural Works</h2>
+            <h5>Concept Creating, Design, Drawing & Approval</h5>
           </center>
           <div className="row mt-4">
             <div className="col-lg-6">

@@ -1,16 +1,51 @@
+import Modal from "@/components/Modal";
 import Head from "next/head";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 
 const NonStructralSteelWorks = () => {
+  const [selectedImage, setSelectedImage] = useState("");
+  const [isShow, setIsShow] = useState(false);
+  const imageModalHandler = (e) => {
+    setSelectedImage(e.target.src);
+    setIsShow(true);
+  };
+
+  const modalCloseHandler = () => {
+    setIsShow(false);
+    setSelectedImage("");
+  };
+
+  let modal = (
+    <div className="imagemodal">
+      <div className="imageinner">
+        <img src={selectedImage} />
+      </div>
+    </div>
+  );
+
   return (
     <>
       <Head>
         <title>Draftsman | Non-Structural-Steel-Works</title>
       </Head>
+      {isShow && (
+        <Modal>
+          <div className="popupimage">
+            <div className="closepopup" onClick={modalCloseHandler}>
+              &times;
+            </div>
+            <div className="zoomInage">
+              <img src={selectedImage} />
+            </div>
+          </div>
+        </Modal>
+      )}
       <section className="non-structral"></section>
       <section className="non-ul-data">
         <center>
           <h2>Non-Structure Steel Works</h2>
+          <h5>Concept Creating, Design, Drawing & Approval</h5>
         </center>
         <div className="container mt-4">
           <div className="row">
@@ -111,6 +146,7 @@ const NonStructralSteelWorks = () => {
                       src="/assets/non-structural/glass balustrade 03.webp"
                       alt=""
                       width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
                     />
                     <div className="inneritem">Glass Balustrade</div>
                   </div>
@@ -119,12 +155,14 @@ const NonStructralSteelWorks = () => {
                       src="/assets/non-structural/Glass balustrade 01.webp"
                       alt=""
                       width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
                     />
                     <div className="inneritem">Glass Balustrade</div>
                   </div>
                   <div className="gallery-item">
                     <img
                       src="/assets/non-structural/Grating 01.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -133,6 +171,7 @@ const NonStructralSteelWorks = () => {
                   <div className="gallery-item">
                     <img
                       src="/assets/non-structural/handrail 02.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -141,6 +180,7 @@ const NonStructralSteelWorks = () => {
                   <div className="gallery-item">
                     <img
                       src="/assets/non-structural/pegola 02.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -149,6 +189,7 @@ const NonStructralSteelWorks = () => {
                   <div className="gallery-item">
                     <img
                       src="/assets/non-structural/pergola 01.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -158,6 +199,7 @@ const NonStructralSteelWorks = () => {
                     {" "}
                     <img
                       src="/assets/non-structural/spiral stair.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -167,6 +209,7 @@ const NonStructralSteelWorks = () => {
                     {" "}
                     <img
                       src="/assets/non-structural/spiral stair 01.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -176,6 +219,7 @@ const NonStructralSteelWorks = () => {
                     {" "}
                     <img
                       src="/assets/non-structural/staircase 01.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -185,6 +229,7 @@ const NonStructralSteelWorks = () => {
                     {" "}
                     <img
                       src="/assets/non-structural/staircase 02.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
@@ -194,10 +239,11 @@ const NonStructralSteelWorks = () => {
                     {" "}
                     <img
                       src="/assets/non-structural/staircase 03.webp"
+                      onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Glass Balustrade</div>
+                    <div className="inneritem">Cantilever Staircase</div>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import ExpertiseSection from "@/components/ExpertiseSection";
+import LogoLayout from "@/components/LogoLayout";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useEffect } from "react";
@@ -33,7 +34,9 @@ const HomePage = () => {
       
       </div>
   </div> */}
+        <LogoLayout />
       </section>
+
       <section id="why-us" className="why-us">
         <div className="container">
           <div className="row">
