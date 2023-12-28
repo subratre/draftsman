@@ -137,6 +137,131 @@ const NonStructralSteelWorks = () => {
                   </span>
                 </div>
               </div>
+              <div className="somework">
+                <p>
+                  Here under some of standard Non Structural & Architectural
+                  metal works lists which we have expertise for approval as
+                  follows:-
+                </p>
+                <ul>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>- Steel / Aluminum Pergola works.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Mashrabia Shade / Pergola installation.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Spiral / Tornado Style Steel stair for Villas, Hotels etc.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Floating Type Steel Stair.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>Steel Platforms.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Cat ladders.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Main Stairs.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Stainless steel Guardrail / Handrail for stairs, void area
+                      etc.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Glass balustrade for Stair, Void, Balcony etc.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Ship Ladder / Maintenance ladder for building, schools
+                      etc.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Walkway Shade / Pergola for school, Govt building etc.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Stainless cladding works and supports.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>Decking support and installation.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span> Grating platforms.</span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Lift Architrave stainless steel cladding works.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                      {" "}
+                      Steel handrail / Guard rail for Hardscape works.
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="col-lg-6" align="center">
               <div class="row">
@@ -248,125 +373,6 @@ const NonStructralSteelWorks = () => {
                 </div>
               </div>
             </div>
-            <p>
-              Here under some of standard Non Structural & Architectural metal
-              works lists which we have expertise for approval as follows:-
-            </p>
-          </div>
-        </div>
-        <div className="container mt-4">
-          <div className="row">
-            <ul>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>- Steel / Aluminum Pergola works.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Mashrabia Shade / Pergola installation.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>
-                  {" "}
-                  Spiral / Tornado Style Steel stair for Villas, Hotels etc.
-                </span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Floating Type Steel Stair.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>Steel Platforms.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Cat ladders.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Main Stairs.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>
-                  {" "}
-                  Stainless steel Guardrail / Handrail for stairs, void area
-                  etc.
-                </span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Glass balustrade for Stair, Void, Balcony etc.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>
-                  {" "}
-                  Ship Ladder / Maintenance ladder for building, schools etc.
-                </span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>
-                  {" "}
-                  Walkway Shade / Pergola for school, Govt building etc.
-                </span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Stainless cladding works and supports.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span>Decking support and installation.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Grating platforms.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Lift Architrave stainless steel cladding works.</span>
-              </li>
-              <li>
-                <span>
-                  <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                </span>
-                <span> Steel handrail / Guard rail for Hardscape works.</span>
-              </li>
-            </ul>
           </div>
         </div>
       </section>

@@ -243,7 +243,18 @@ span.humbergs {
 }
 
 .navmobile li {
-  padding: 5px 14px;
+  padding: 6px 0;
+}
+.somework ul {
+  columns: 2;
+}
+
+.navmobile ul li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.navmobile li a {
+  padding: 2px 12px;
 }
 .navmobile li.active a {
   font-weight: bold;
@@ -2427,13 +2438,7 @@ section.non-ul-data ul {
 }
 
 section.non-ul-data ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  /* Adjust the column width as needed */
-  gap: 10px; /* Optional: Add some gap between list items */
+  column: 2;
 }
 
 section.non-ul-data ul li {
@@ -2442,7 +2447,7 @@ section.non-ul-data ul li {
   /* background: #787373; */
   background-color: #092553;
   margin: 9px 2px;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -2477,9 +2482,9 @@ section.profesional-reviewer {
   font-weight: bold;
 }
 .listitem {
-  margin-left: 41px;
-  margin-top: 18px;
-  margin-bottom: 43px;
+  margin-left: 21px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .listitem .grop-items {
@@ -2545,7 +2550,6 @@ section.profesional-reviewer {
 .gallery-item img {
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
-  height: 136px;
 }
 .inneritem {
   position: absolute;
