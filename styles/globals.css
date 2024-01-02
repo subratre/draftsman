@@ -622,6 +622,14 @@ span.humbergs {
   }
 }
 
+@media (max-width: 576px) {
+  ul.structural-work {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -631,6 +639,11 @@ span.humbergs {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .non-url-data ul.structural-work {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
@@ -2612,4 +2625,14 @@ section.profesional-reviewer {
   z-index: 9999;
   font-size: 40px;
   cursor: pointer;
+}
+
+ul.structural-work {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+ul.structural-work li {
+  margin: 9px 10px !important;
 }

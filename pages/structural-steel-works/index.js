@@ -1,12 +1,44 @@
+import Modal from "@/components/Modal";
 import Head from "next/head";
-import React from "react";
+import React, { useState } from "react";
 
 const StructuralSteelWorks = () => {
+  const [selectedImage, setSelectedImage] = useState("");
+  const [isShow, setIsShow] = useState(false);
+  const imageModalHandler = (e) => {
+    setSelectedImage(e.target.src);
+    setIsShow(true);
+  };
+
+  const modalCloseHandler = () => {
+    setIsShow(false);
+    setSelectedImage("");
+  };
+
+  let modal = (
+    <div className="imagemodal">
+      <div className="imageinner">
+        <img src={selectedImage} />
+      </div>
+    </div>
+  );
   return (
     <>
       <Head>
         <title>Draftsman | Structural-Steel-Works</title>
       </Head>
+      {isShow && (
+        <Modal>
+          <div className="popupimage">
+            <div className="closepopup" onClick={modalCloseHandler}>
+              &times;
+            </div>
+            <div className="zoomInage">
+              <img src={selectedImage} />
+            </div>
+          </div>
+        </Modal>
+      )}
       <section className="non-structral structral"></section>
       <section className="non-ul-data">
         <center>
@@ -178,64 +210,111 @@ const StructuralSteelWorks = () => {
             </div>
             <div class="col-lg-6" align="center">
               <div class="row">
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/00-High-Rise-Buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/04-warehouse.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img src="/assets/images/01-BIM.jpg" alt="" width="100%" />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/03-rebarDetailing.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/02-oilandgas.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/05-Indust-comercial-buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/06-Misc-structures.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
+                <div className="gallery">
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/Cantiliver Shade.jpg"
+                      alt=""
+                      width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
+                    />
+                    <div className="inneritem">Cantiliver Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/Car Parks PVC-HDPE.jpg"
+                      alt=""
+                      width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
+                    />
+                    <div className="inneritem">Car Parks PVC-HDPE</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/Curved Shade.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Curved Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/MAIN PHOTO 02.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Main Photo 02</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/MAIN PHOTO 03.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Main Photo 03</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/structural/Modeling.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Modeling</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/structural/PVC Reverse Dome.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">PVC Reverse Dome</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/structural/PVC Special Shade.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">PVC Special Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/structural/Single Dome.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Single Dome</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/structural/Sitting Area.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Sitting Area</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/structural/Solar Car park.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Solar Car Park</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -247,7 +326,7 @@ const StructuralSteelWorks = () => {
               </p>
             </div>
 
-            <ul>
+            <ul className="structural-work">
               <li>
                 <span>
                   <i class="fa fa-hand-o-right" aria-hidden="true"></i>

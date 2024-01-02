@@ -309,7 +309,7 @@ const NonStructralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Pegola</div>
+                    <div className="inneritem">Pergola</div>
                   </div>
                   <div className="gallery-item">
                     <img
