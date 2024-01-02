@@ -1,12 +1,36 @@
 import Head from "next/head";
-import React from "react";
+import React, { useState } from "react";
+import Modal from "@/components/Modal";
 
 const TensilStructuralWorks = () => {
+  const [selectedImage, setSelectedImage] = useState("");
+  const [isShow, setIsShow] = useState(false);
+  const imageModalHandler = (e) => {
+    setSelectedImage(e.target.src);
+    setIsShow(true);
+  };
+
+  const modalCloseHandler = () => {
+    setIsShow(false);
+    setSelectedImage("");
+  };
   return (
     <>
       <Head>
         <title>Draftsman | Tensile Structural Works</title>
       </Head>
+      {isShow && (
+        <Modal>
+          <div className="popupimage">
+            <div className="closepopup" onClick={modalCloseHandler}>
+              &times;
+            </div>
+            <div className="zoomInage">
+              <img src={selectedImage} />
+            </div>
+          </div>
+        </Modal>
+      )}
       <section className="non-structral structral"></section>
       <section className="mt-0 py-5 pb-0">
         <div className="container">
@@ -193,64 +217,111 @@ const TensilStructuralWorks = () => {
             </div>
             <div class="col-lg-6" align="center">
               <div class="row">
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/00-High-Rise-Buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <img
-                    src="/assets/images/04-warehouse.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img src="/assets/images/01-BIM.jpg" alt="" width="100%" />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/03-rebarDetailing.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/02-oilandgas.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/05-Indust-comercial-buildings.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <br />
-                  <img
-                    src="/assets/images/06-Misc-structures.jpg"
-                    alt=""
-                    width="100%"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <br />
+                <div className="gallery">
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/Cantiliver Shade.jpg"
+                      alt=""
+                      width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
+                    />
+                    <div className="inneritem">Cantiliver Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg"
+                      alt=""
+                      width="100%"
+                      onClick={(evt) => imageModalHandler(evt)}
+                    />
+                    <div className="inneritem">Car Parks PVC-HDPE</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/Curved Shade.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Curved Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/MAIN PHOTO 02.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">MAIN PHOTO 02</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/MAIN PHOTO 03.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">MAIN PHOTO 03</div>
+                  </div>
+                  <div className="gallery-item">
+                    <img
+                      src="/assets/tensilfabric/Modeling.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Modeling</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/tensilfabric/PVC Reverse Dome.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">PVC Reverse Dome</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/tensilfabric/PVC Special Shade.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">PVC Special Shade</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/tensilfabric/Single Dome.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Single Dome</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/tensilfabric/Sitting Area.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Sitting Area</div>
+                  </div>
+                  <div className="gallery-item">
+                    {" "}
+                    <img
+                      src="/assets/tensilfabric/Solar Car park.jpg"
+                      onClick={(evt) => imageModalHandler(evt)}
+                      alt=""
+                      width="100%"
+                    />
+                    <div className="inneritem">Solar Car park</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -277,9 +348,9 @@ const TensilStructuralWorks = () => {
         {/* <center>
           <h2>Tensile Fabric Structure (HDPE & PVC) </h2>
         </center> */}
-        <div className="container mt-4">
+        <div className="container mt-2">
           <div className="row">
-            <ul>
+            <ul className="tensil-fabric">
               <li>
                 <span>
                   <i class="fa fa-hand-o-right" aria-hidden="true"></i>
