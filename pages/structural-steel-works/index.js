@@ -213,52 +213,52 @@ const StructuralSteelWorks = () => {
                 <div className="gallery">
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/Cantiliver Shade.jpg"
+                      src="/assets/structural/Canopies Str.jpg"
                       alt=""
                       width="100%"
                       onClick={(evt) => imageModalHandler(evt)}
                     />
-                    <div className="inneritem">Cantiliver Shade</div>
+                    <div className="inneritem">Canopies Str</div>
                   </div>
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/Car Parks PVC-HDPE.jpg"
+                      src="/assets/structural/Escalator Support.webp"
                       alt=""
                       width="100%"
                       onClick={(evt) => imageModalHandler(evt)}
                     />
-                    <div className="inneritem">Car Parks PVC-HDPE</div>
+                    <div className="inneritem">Escalator Support</div>
                   </div>
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/Curved Shade.jpg"
+                      src="/assets/structural/Mezzanine Str.png"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Curved Shade</div>
+                    <div className="inneritem">Mezzanine Str</div>
                   </div>
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/MAIN PHOTO 02.jpg"
+                      src="/assets/structural/Modular Steel.png"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Main Photo 02</div>
+                    <div className="inneritem">Modular Steel</div>
                   </div>
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/MAIN PHOTO 03.jpg"
+                      src="/assets/structural/Oill Industries Str.jpg"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Main Photo 03</div>
+                    <div className="inneritem">Oill Industries Str</div>
                   </div>
                   <div className="gallery-item">
                     <img
-                      src="/assets/structural/Modeling.jpg"
+                      src="/assets/structural/Solar Steel Str.webp"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
@@ -268,7 +268,7 @@ const StructuralSteelWorks = () => {
                   <div className="gallery-item">
                     {" "}
                     <img
-                      src="/assets/structural/PVC Reverse Dome.jpg"
+                      src="/assets/structural/Truss Str.jpeg"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
@@ -278,7 +278,7 @@ const StructuralSteelWorks = () => {
                   <div className="gallery-item">
                     {" "}
                     <img
-                      src="/assets/structural/PVC Special Shade.jpg"
+                      src="/assets/structural/Walkway Bridge.jpg"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
@@ -288,32 +288,12 @@ const StructuralSteelWorks = () => {
                   <div className="gallery-item">
                     {" "}
                     <img
-                      src="/assets/structural/Single Dome.jpg"
+                      src="/assets/structural/Warehouses.jpeg"
                       onClick={(evt) => imageModalHandler(evt)}
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Single Dome</div>
-                  </div>
-                  <div className="gallery-item">
-                    {" "}
-                    <img
-                      src="/assets/structural/Sitting Area.jpg"
-                      onClick={(evt) => imageModalHandler(evt)}
-                      alt=""
-                      width="100%"
-                    />
-                    <div className="inneritem">Sitting Area</div>
-                  </div>
-                  <div className="gallery-item">
-                    {" "}
-                    <img
-                      src="/assets/structural/Solar Car park.jpg"
-                      onClick={(evt) => imageModalHandler(evt)}
-                      alt=""
-                      width="100%"
-                    />
-                    <div className="inneritem">Solar Car Park</div>
+                    <div className="inneritem">Warehouses</div>
                   </div>
                 </div>
               </div>

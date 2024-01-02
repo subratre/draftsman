@@ -2440,7 +2440,7 @@ section.non-structral {
   background-size: cover;
 }
 section.non-structral.structral {
-  background: url("http://localhost:3000/assets/structural/Curved%20Shade.jpg");
+  background: url("/assets/Banner2.jpg");
   height: 261px;
   background-repeat: no-repeat;
   background-size: cover;
