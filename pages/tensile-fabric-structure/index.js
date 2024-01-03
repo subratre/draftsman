@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import Modal from "@/components/Modal";
+import DynamicCarousel from "@/components/DyamicCarousel";
 
 const TensilStructuralWorks = () => {
   const [selectedImage, setSelectedImage] = useState("");
@@ -31,7 +32,32 @@ const TensilStructuralWorks = () => {
           </div>
         </Modal>
       )}
-      <section className="non-structral structral"></section>
+      <section className="dynamic-carousel p-0">
+        <DynamicCarousel>
+          <div className="item">
+            <img src="/assets/tensilfabric/Cantiliver Shade.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Curved Shade.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+          </div>
+
+          <div className="item">
+            <img src="/assets/tensilfabric/MAIN PHOTO 02.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+          </div>
+        </DynamicCarousel>
+      </section>
       <section className="mt-0 py-5 pb-0">
         <div className="container">
           <center>
