@@ -263,7 +263,7 @@ const StructuralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">Modeling</div>
+                    <div className="inneritem">Solar Steel Str</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -273,7 +273,7 @@ const StructuralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">PVC Reverse Dome</div>
+                    <div className="inneritem">Truss Str</div>
                   </div>
                   <div className="gallery-item">
                     {" "}
@@ -283,7 +283,7 @@ const StructuralSteelWorks = () => {
                       alt=""
                       width="100%"
                     />
-                    <div className="inneritem">PVC Special Shade</div>
+                    <div className="inneritem">Walkway Bridge</div>
                   </div>
                   <div className="gallery-item">
                     {" "}

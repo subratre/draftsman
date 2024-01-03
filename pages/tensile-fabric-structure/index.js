@@ -47,14 +47,24 @@ const TensilStructuralWorks = () => {
           <div className="item">
             <img src="/assets/tensilfabric/MAIN PHOTO 02.jpg" />
           </div>
+
           <div className="item">
-            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+            <img src="/assets/tensilfabric/Modeling.jpg" />
           </div>
           <div className="item">
-            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+            <img src="/assets/tensilfabric/PVC Reverse Dome.jpg" />
           </div>
           <div className="item">
-            <img src="/assets/tensilfabric/Car Parks PVC-HDPE.jpg" />
+            <img src="/assets/tensilfabric/PVC Special Shade.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Single Dome.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Sitting Area.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/tensilfabric/Solar Car park.jpg" />
           </div>
         </DynamicCarousel>
       </section>
