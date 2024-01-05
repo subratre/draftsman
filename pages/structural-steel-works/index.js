@@ -1,3 +1,4 @@
+import DynamicCarousel from "@/components/DyamicCarousel";
 import Modal from "@/components/Modal";
 import Head from "next/head";
 import React, { useState } from "react";
@@ -39,7 +40,39 @@ const StructuralSteelWorks = () => {
           </div>
         </Modal>
       )}
-      <section className="non-structral structral"></section>
+      <section className="dynamic-carousel p-0">
+        <DynamicCarousel>
+          <div className="item">
+            <img src="/assets/structural/Canopies Str.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Escalator Support.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Mezzanine Str.png" />
+          </div>
+
+          <div className="item">
+            <img src="/assets/structural/Modular Steel.png" />
+          </div>
+
+          <div className="item">
+            <img src="/assets/structural/Oill Industries Str.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Solar Steel Str.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Truss Str.jpeg" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Walkway Bridge.jpg" />
+          </div>
+          <div className="item">
+            <img src="/assets/structural/Warehouses.jpeg" />
+          </div>
+        </DynamicCarousel>
+      </section>
       <section className="non-ul-data">
         <center>
           <h2>Structure Steel Works </h2>

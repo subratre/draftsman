@@ -1,3 +1,4 @@
+import DynamicCarousel from "@/components/DyamicCarousel";
 import Modal from "@/components/Modal";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
@@ -41,7 +42,45 @@ const NonStructralSteelWorks = () => {
           </div>
         </Modal>
       )}
-      <section className="non-structral"></section>
+      <section className="dynamic-carousel p-0">
+        <DynamicCarousel>
+          <div className="item">
+            <img src="/assets/non-structural/glass balustrade 03.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/Glass balustrade 01.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/Grating 01.webp" />
+          </div>
+
+          <div className="item">
+            <img src="/assets/non-structural/handrail 02.webp" />
+          </div>
+
+          <div className="item">
+            <img src="/assets/non-structural/pegola 02.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/pergola 01.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/spiral stair.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/spiral stair 01.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/staircase 01.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/staircase 02.webp" />
+          </div>
+          <div className="item">
+            <img src="/assets/non-structural/staircase 03.webp" />
+          </div>
+        </DynamicCarousel>
+      </section>
       <section className="non-ul-data">
         <center>
           <h2>Non-Structure Steel Works</h2>
