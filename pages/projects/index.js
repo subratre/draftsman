@@ -1,10 +1,13 @@
 import DynamicCarousel from "@/components/DyamicCarousel";
+import Head from "next/head";
 import React from "react";
 
 const Projects = () => {
   return (
     <>
-      {" "}
+      <Head>
+        <title>Draftsman | Our Projects</title>
+      </Head>{" "}
       <section className="dynamic-carousel p-0">
         {" "}
         <DynamicCarousel>
