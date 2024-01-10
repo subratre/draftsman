@@ -2445,7 +2445,8 @@ section.non-structral.structral {
   background-repeat: no-repeat;
   background-size: cover;
 }
-section.non-ul-data ul {
+section.non-ul-data ul,
+section.non-ul-data-project ul {
   margin: 0;
   padding: 0;
 }
@@ -2454,7 +2455,8 @@ section.non-ul-data ul {
   column: 2;
 }
 
-section.non-ul-data ul li {
+section.non-ul-data ul li,
+section.non-ul-data-project ul li {
   display: flex;
   gap: 10px;
   /* background: #787373; */
@@ -2465,7 +2467,8 @@ section.non-ul-data ul li {
   color: #fff;
   cursor: pointer;
 }
-section.non-ul-data ul li:hover {
+section.non-ul-data ul li:hover,
+section.non-ul-data-project ul li:hover {
   background: #ff774a;
 }
 section.calculaion-service {
@@ -2640,8 +2643,15 @@ ul.tensil-fabric {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+section.non-ul-data-project ul.tensil-fabric {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 section.dynamic-carousel {
   height: 280px;
+}
+.project-gallery img {
+  width: 100%;
 }
 
 section.dynamic-carousel img {

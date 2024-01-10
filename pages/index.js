@@ -167,7 +167,10 @@ const HomePage = () => {
             >
               <div
                 class="card"
-                style={{ backgroundImage: "url(assets/images/values-1-1.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(assets/homephoto/non-structural-work.jpg)",
+                }}
               >
                 <div class="card-body">
                   <h5 class="card-title">
@@ -193,7 +196,9 @@ const HomePage = () => {
             >
               <div
                 class="card"
-                style={{ backgroundImage: "url(assets/images/values-2-1.jpg)" }}
+                style={{
+                  backgroundImage: "url(assets/homephoto/structuralsteel.jpeg)",
+                }}
               >
                 <div class="card-body">
                   <h5 class="card-title">
@@ -218,7 +223,10 @@ const HomePage = () => {
             >
               <div
                 class="card"
-                style={{ backgroundImage: "url(assets/images/values-3.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(assets/homephoto/tensilstructuralwork.jpg)",
+                }}
               >
                 <div class="card-body">
                   <h5 class="card-title">
