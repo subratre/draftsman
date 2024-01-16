@@ -29,6 +29,12 @@ const LogoLayout = () => {
               <div className="logo-gallery-item">
                 <img src="/assets/logohome/TEKLA-Structures 1.jpg" />
               </div>
+              <div className="logo-gallery-item">
+                <img src="/assets/logohome/BIM1.png" />
+              </div>
+              <div className="logo-gallery-item">
+                <img src="/assets/logohome/sketch-up.jpg" />
+              </div>
             </div>
           </div>
         </div>
