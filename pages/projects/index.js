@@ -50,10 +50,31 @@ const Projects = () => {
       </section>
       <section className="p-5">
         <div className="container">
-          <center>
-            <h2>Scope Of Works</h2>
-            <h5>Hardscape External Non Structural Works</h5>
-          </center>
+          <div className="pro-address-pro mx-auto">
+            <ul>
+              <li>
+                <strong>Current Project</strong>:
+                <address>Zayed City School, MZ03, MZ04&MZ9</address>
+              </li>
+              <li>
+                <span>Location</span>:<address>Abu Dhabi, UAE</address>
+              </li>
+              <li>
+                <span>Client</span>: <span>Steel Sub Contractor, Abudhabi</span>
+              </li>
+              <li>
+                <span>Our Scope</span>:{" "}
+                <span>
+                  Concept, Design Calculation, Shop Drawing, Fabrication
+                  Drawing, As built etc.
+                </span>
+              </li>
+              <li>
+                <span>Project Scope</span>:{" "}
+                <span>Hardscape External Non Structural Works.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section className="non-ul-data-project mt-0 p-0">

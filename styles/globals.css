@@ -2661,3 +2661,23 @@ section.dynamic-carousel img {
 section.dynamic-carousel .owl-item {
   margin: 0 !important;
 }
+.pro-address-pro ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pro-address-pro ul li {
+  display: flex;
+  gap: 9px;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.pro-address-pro ul li address {
+  margin: 0;
+}
+
+.pro-address-pro.mx-auto {
+  max-width: 682px;
+}
