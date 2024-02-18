@@ -10,18 +10,38 @@ const Footer = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4 footer-contact">
-              <h3 style={{ color: "white" }}>Draftsman</h3>
+              <h3
+                style={{
+                  color: "white",
+                  letterSpacing: "1px",
+                  fontWeight: 600,
+                  fontSize: 25,
+                }}
+              >
+                draftsmans.com
+                <div
+                  style={{ fontSize: 14, fontWeight: 500, letterSpacing: 2 }}
+                >
+                  CAD &nbsp;&&nbsp; BIM Services
+                </div>
+              </h3>
               <p>
-                India
-                <br />
-                <br />
+                No - 4859, Cuttack Puri Road, <br />
+                Mancheswar Industrial Estate,
+                <br /> Bhubaneswar - 751010, India <br />
               </p>
-              <p style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+
+              <p
+                style={{
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                  marginTop: "10px",
+                }}
+              >
                 <strong>Phone:</strong> (+91) 123456789
                 <br />
               </p>
               <p>
-                <strong>Email:</strong> info@draftsman.com
+                <strong>Email:</strong> sales@draftsmans.com
               </p>
             </div>
 
@@ -104,7 +124,7 @@ const Footer = () => {
             <div class="copyright">
               © Copyright{" "}
               <strong>
-                <span>Draftsman</span>
+                <span>draftsmans.com</span>
               </strong>
               . All Rights Reserved.
             </div>

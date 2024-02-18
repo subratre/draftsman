@@ -46,7 +46,10 @@ const Navigation = () => {
         <div className="container d-flex align-items-center">
           <div className="logo me-auto">
             <Link href="/" className="logologo">
-              <h4>Draftsmans</h4>
+              <img
+                src="./newlogo.png"
+                style={{ width: "100%", display: "block" }}
+              />
             </Link>
           </div>
 

@@ -31,50 +31,42 @@ const Contact = () => {
       <Head>
         <title>Draftsman | Contact</title>
       </Head>
-      <section
-        id="about1"
-        style={{ backgroundColor: "white" }}
-        className="p-0 mb-3"
-      >
+      <section id="about1" style={{ backgroundColor: "white" }} className="p-0">
         <section className="contact-banner"></section>
         <div class="container">
           <div class="row">
             <div class="col-xl-12 col-lg-12">
               <section
-                style={{ marginTop: "100px", backgroundColor: "white" }}
+                style={{ marginTop: "50px", backgroundColor: "white" }}
                 className="p-0"
               >
-                <h2 style={{ fontSize: "xLarge", color: "#0094ff" }}>
+                <h3 style={{ fontSize: "xLarge", color: "#0094ff" }}>
                   {" "}
                   CONTACT US
-                </h2>
+                </h3>
                 <p>
-                  <b>Draftsman</b>
+                  <b>Draftsmans</b>
                   <br />
-                  Address,
-                  <br />
-                  India <br />
-                  <br />
+                  No - 4859, Cuttack Puri Road, <br />
+                  Mancheswar Industrial Estate,
+                  <br /> Bhubaneswar - 751010, India <br />
                 </p>
                 <p>
                   <b>INDIA :</b> (+91) 12345678
                 </p>
 
-                <br />
                 <p>
-                  <b>Email:</b> info@draftsman.com
+                  <b>Email:</b> sales@draftsmans.com
                 </p>
-                <br />
-                <br />
               </section>
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container mb-5">
           <div className="row">
             <div class="form">
               <br />
-              Send Email Message to us...
+              <strong>Enquiry</strong> <br />
               <br />
               <span
                 id="ContentPlaceHolder1_lbl_Message"
@@ -115,13 +107,14 @@ const Contact = () => {
                 </div>
               </div>
               <div class="form-group mb-3">
-                <input
-                  name="ctl00$ContentPlaceHolder1$txt_Subject"
-                  type="text"
-                  id="ContentPlaceHolder1_txt_Subject"
-                  class="form-control"
-                  placeholder="Enter Subject"
-                />
+                <select className="form-control">
+                  <option>Shop Drawings</option>
+                  <option>Fabrication Drawing</option>
+                  <option>3D Modeling</option>
+                  <option>Design load calculation</option>
+                  <option>Turnkey Project</option>
+                  <option>Others</option>
+                </select>
                 <div class="validation"></div>
               </div>
               <div class="form-group mb-3">
