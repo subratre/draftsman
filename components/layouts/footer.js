@@ -10,21 +10,10 @@ const Footer = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4 footer-contact">
-              <h3
-                style={{
-                  color: "white",
-                  letterSpacing: "1px",
-                  fontWeight: 600,
-                  fontSize: 25,
-                }}
-              >
-                draftsmans.com
-                <div
-                  style={{ fontSize: 14, fontWeight: 500, letterSpacing: 2 }}
-                >
-                  CAD &nbsp;&&nbsp; BIM Services
-                </div>
-              </h3>
+              <div className="mb-3">
+                <img src="./logo_footer.png" alt="" style={{ width: "60%" }} />
+              </div>
+
               <p>
                 No - 4859, Cuttack Puri Road, <br />
                 Mancheswar Industrial Estate,
