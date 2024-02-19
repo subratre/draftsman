@@ -47,7 +47,7 @@ const HomePage = () => {
               <div className="content">
                 <div align="center">
                   {/* <img src="assets/img/Top_Blue_Logo.jpg" className="img-fluid" /> */}
-                  <h3>DraftsMan</h3>
+                  <h3>DraftsMans</h3>
                   <h4>Why Choose Draftsmans.com?</h4>
                 </div>
                 <p align="Justify">

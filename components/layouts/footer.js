@@ -11,7 +11,13 @@ const Footer = () => {
           <div class="row">
             <div class="col-lg-4 col-md-4 footer-contact">
               <div className="mb-3">
-                <img src="./logo_footer.png" alt="" style={{ width: "60%" }} />
+                <Link href="/">
+                  <img
+                    src="./logo_footer.png"
+                    alt=""
+                    style={{ width: "60%" }}
+                  />
+                </Link>
               </div>
 
               <p>
