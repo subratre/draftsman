@@ -32,7 +32,7 @@ const Footer = () => {
                   marginTop: "10px",
                 }}
               >
-                <strong>Phone:</strong> (+91) 123456789
+                <strong>Phone:</strong> (+91) 9040759551
                 <br />
               </p>
               <p>

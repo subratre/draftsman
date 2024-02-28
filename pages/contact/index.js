@@ -52,7 +52,7 @@ const Contact = () => {
                   <br /> Bhubaneswar - 751010, India <br />
                 </p>
                 <p>
-                  <b>INDIA :</b> (+91) 12345678
+                  <b>INDIA :</b> (+91) 9040759551
                 </p>
 
                 <p>

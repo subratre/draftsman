@@ -13,7 +13,7 @@ const TopHeader = () => {
               <a href="mailto:info@himagotech.com">sales@draftsmans.com</a>
             </li>
             <li>
-              <i className="icofont-phone"></i> (+971) 528663856{" "}
+              <i className="icofont-phone"></i> (+91) 9040759551{" "}
             </li>
           </ul>
         </div>
