@@ -32,7 +32,24 @@ const Footer = () => {
                   marginTop: "10px",
                 }}
               >
-                <strong>Phone:</strong> (+91) 9040759551
+                <strong>India Contacts:</strong> (+91) 9040759551
+              </p>
+              <p
+                style={{
+                  fontFamily: "Arial, Helvetica, sans-serif",
+                  marginTop: "5px",
+                }}
+              >
+                <strong>UAE(Dubai) Contacts:</strong> 00971 (0)529746653{" "}
+                <i
+                  className="fa fa-whatsapp"
+                  aria-hidden="true"
+                  style={{
+                    color: "#fff",
+                    fontWeight: "bold",
+                    fontSize: "15px",
+                  }}
+                ></i>
                 <br />
               </p>
               <p>

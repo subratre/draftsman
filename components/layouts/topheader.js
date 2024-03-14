@@ -13,7 +13,19 @@ const TopHeader = () => {
               <a href="mailto:info@himagotech.com">sales@draftsmans.com</a>
             </li>
             <li>
-              <i className="icofont-phone"></i> (+91) 9040759551{" "}
+              <i className="icofont-phone"></i>(+91) 9040759551{" "}
+            </li>
+            <li>
+              <i className="icofont-phone"></i>00971 (0)529746653{" "}
+              <i
+                className="fa fa-whatsapp"
+                aria-hidden="true"
+                style={{
+                  color: "#fff",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                }}
+              ></i>
             </li>
           </ul>
         </div>
