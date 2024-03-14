@@ -55,18 +55,9 @@ const Contact = () => {
                   <b>India Contacts :</b> (+91) 9040759551
                 </p>
                 <p>
-                  <b>UAE(Dubai) Contacts :</b> (+91) 9040759551{" "}
-                  <i
-                    className="fa fa-whatsapp"
-                    aria-hidden="true"
-                    style={{
-                      color: "#000",
-                      fontWeight: "bold",
-                      fontSize: "15px",
-                    }}
-                  ></i>
+                  <b>UAE(Dubai) Contacts :</b> 00971(0)529746653 (Call &
+                  Whatsapp)
                 </p>
-
                 <p>
                   <b>Email:</b> sales@draftsmans.com
                 </p>

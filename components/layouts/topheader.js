@@ -13,7 +13,7 @@ const TopHeader = () => {
               <a href="mailto:info@himagotech.com">sales@draftsmans.com</a>
             </li>
             <li>
-              <i className="icofont-phone"></i>(+91) 9040759551{" "}
+              <i className="icofont-phone"></i>(+91) 9040759551 (India)
             </li>
             <li>
               <i className="icofont-phone"></i>00971 (0)529746653{" "}
@@ -26,6 +26,7 @@ const TopHeader = () => {
                   fontSize: "15px",
                 }}
               ></i>
+              (Dubai, UAE)
             </li>
           </ul>
         </div>

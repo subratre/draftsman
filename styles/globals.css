@@ -58,7 +58,7 @@ h6 {
 #topbar {
   /* background: #006699; */
   background-color: #092553;
-  font-size: 14px;
+  font-size: 13px;
   padding: 0;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -95,7 +95,7 @@ h6 {
 #topbar .cta a {
   color: #fff;
   background: #ff5821;
-  padding: 8px 20px;
+  padding: 8px 8px;
   display: inline-block;
   transition: 0.3s;
 }
