@@ -21,7 +21,7 @@ const TopHeader = () => {
                 className="fa fa-whatsapp"
                 aria-hidden="true"
                 style={{
-                  color: "#fff",
+                  color: "#ff5821",
                   fontWeight: "bold",
                   fontSize: "15px",
                 }}
