@@ -1,12 +1,12 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  port: 587,
+  host: "smtp.resend.com",
+  port: 465,
   secure: false,
   auth: {
-    user: "sales@draftsmans.com",
-    pass: "Next1804@",
+    user: "resend",
+    pass: "re_G2nmwPhh_Gp2NJYuiVo7ngMZ9EbDkNa6o",
   },
   debug: true,
 });
