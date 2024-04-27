@@ -1,19 +1,23 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  service: "gmail",
+  host: "smtp-mail.outlook.com",
+  port: 587,
+  secure: false,
   auth: {
-    user: "subrat.nbc@gmail.com",
-    pass: "heee izto muqd tuzu",
+    user: "sales@draftsmans.com",
+    pass: "Next1804@",
   },
+  debug: true,
 });
 
 export const sendMail = async (to, subject, html) => {
   const mailOptions = {
-    from: "subrat.nbc@gmail.com",
+    from: "sales@draftsmans.com",
     to,
     subject,
     html,
+    validate: false,
   };
   try {
     await transporter.sendMail(mailOptions);

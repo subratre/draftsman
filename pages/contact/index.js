@@ -1,11 +1,29 @@
 import Head from "next/head";
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
-  const formSubmitHandler = async () => {
-    const to = "subrat.nbc@gmail.com";
-    const subject = "Test Email";
-    const html = "<p>This is a test email.</p>";
+  const [formdata, setFormdata] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    drawing: "",
+    message: "",
+  });
+  const inputChangeHandler = (e) => {
+    const { name, value } = e.target;
+    setFormdata({ ...formdata, [name]: value });
+  };
+  const formSubmitHandler = async (e) => {
+    const to = "sales@draftsmans";
+    const subject = "New Enquiry";
+    const html = `
+    
+    Email: ${formdata.email}
+    Name: ${formdata.name}
+    Phone: ${formdata.phone}
+    Message: ${formdata.message}
+    
+    `;
 
     try {
       const response = await fetch("/api/sendEmail", {
@@ -78,9 +96,11 @@ const Contact = () => {
               <div class="row mb-3">
                 <div class="form-group col-md-4">
                   <input
-                    name="ctl00$ContentPlaceHolder1$txt_Name"
                     type="text"
                     id="ContentPlaceHolder1_txt_Name"
+                    name="name"
+                    value={formdata.name}
+                    onChange={inputChangeHandler}
                     class="form-control"
                     placeholder="Your Name"
                     data-rule="minlen:4"
@@ -90,18 +110,22 @@ const Contact = () => {
                 </div>
                 <div class="form-group col-md-4">
                   <input
-                    name="ctl00$ContentPlaceHolder1$txt_PhoneNo"
                     type="text"
                     id="ContentPlaceHolder1_txt_PhoneNo"
                     class="form-control"
+                    name="phone"
+                    value={formdata.phone}
+                    onChange={inputChangeHandler}
                     placeholder="Phone No."
                   />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group col-md-4">
                   <input
-                    name="ctl00$ContentPlaceHolder1$txt_Email"
-                    type="text"
+                    type="email"
+                    name="email"
+                    value={formdata.email}
+                    onChange={inputChangeHandler}
                     id="ContentPlaceHolder1_txt_Email"
                     class="form-control"
                     placeholder="Your Email ID"
@@ -110,7 +134,12 @@ const Contact = () => {
                 </div>
               </div>
               <div class="form-group mb-3">
-                <select className="form-control">
+                <select
+                  className="form-control"
+                  name="drawing"
+                  value={formdata.drawing}
+                  onChange={inputChangeHandler}
+                >
                   <option>Shop Drawings</option>
                   <option>Fabrication Drawing</option>
                   <option>3D Modeling</option>
@@ -122,7 +151,9 @@ const Contact = () => {
               </div>
               <div class="form-group mb-3">
                 <textarea
-                  name="ctl00$ContentPlaceHolder1$txt_Message"
+                  name="message"
+                  value={formdata.message}
+                  onChange={inputChangeHandler}
                   rows="2"
                   cols="20"
                   id="ContentPlaceHolder1_txt_Message"
