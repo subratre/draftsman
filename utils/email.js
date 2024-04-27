@@ -2,11 +2,11 @@ import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
   host: "smtp.resend.com",
-  port: 465,
+  port: 587,
   secure: false,
   auth: {
     user: "resend",
-    pass: "re_G2nmwPhh_Gp2NJYuiVo7ngMZ9EbDkNa6o",
+    pass: "re_AU3xhL7g_2JbDg4u1UW7ZykxjK5Hip1G4",
   },
   debug: true,
 });
