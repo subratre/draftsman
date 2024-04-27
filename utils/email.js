@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.draftsmans.com",
+  host: "smtp-mail.outlook.com",
   port: 587,
   secure: false,
   auth: {
