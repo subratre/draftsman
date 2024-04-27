@@ -1,9 +1,9 @@
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  port: 587,
-  secure: false,
+  host: "outlook.office365.com",
+  port: 993,
+  secure: true,
   auth: {
     user: "sales@draftsmans.com",
     pass: "Next1804@",
