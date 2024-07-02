@@ -2695,6 +2695,7 @@ section.dynamic-carousel .owl-item {
 .superviour ul li {
   list-style: none;
   font-size: 13px;
+  line-height: 0;
 }
 .superviour ul {
   margin: 0;
