@@ -52,11 +52,9 @@ const Navigation = () => {
               />
             </Link>
           </div>
-
           <div className="humbergs" onClick={showMenuHandler}>
             {isShow ? <span>&times;</span> : <i className="fa fa-bars"></i>}
           </div>
-
           <MobilNav show={isShow}>
             <motion.div
               className="navmobile"
@@ -153,7 +151,13 @@ const Navigation = () => {
               </ul>
             </motion.div>
           </MobilNav>
-
+          <div className="superviour">
+            <ul>
+              <li>
+                <Link href="/">HIRE A LAND/PLOT/FLAT SURVEYOR</Link>
+              </li>
+            </ul>
+          </div>
           <nav className="nav-menu d-none d-lg-block">
             <ul>
               <li className={currentRoute === "/" ? "active" : ""}>
