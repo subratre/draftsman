@@ -11,8 +11,6 @@ const Modal = ({ children }) => {
     typeof document !== "undefined" ? document.createElement("div") : null
   );
 
-  
-
   return modalRoot && modalElement.current
     ? createPortal(children, modalRoot)
     : null;

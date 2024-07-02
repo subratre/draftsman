@@ -154,7 +154,9 @@ const Navigation = () => {
           <div className="superviour">
             <ul>
               <li>
-                <Link href="/">HIRE A LAND/PLOT/FLAT SURVEYOR</Link>
+                <Link href="/hire-a--land-plot-flat-surveyor">
+                  HIRE A LAND/PLOT/FLAT SURVEYOR
+                </Link>
               </li>
             </ul>
           </div>
