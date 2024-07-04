@@ -2745,6 +2745,7 @@ li.superviour li a:hover {
 
 .image-works {
   width: 100%;
+  border-radius: 7px;
 }
 .services-works.pt-2 p {
   font-size: 14px;
