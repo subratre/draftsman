@@ -153,8 +153,14 @@ const Navigation = () => {
           </MobilNav>
           <div className="superviour">
             <ul>
-              <li>
-                <Link href="/hire-a--land-plot-flat-surveyor">
+              <li
+                className={
+                  currentRoute === "/hire-a-land-plot-flat-surveyor"
+                    ? "active_surveyor"
+                    : ""
+                }
+              >
+                <Link href="/hire-a-land-plot-flat-surveyor">
                   HIRE A LAND/PLOT/FLAT SURVEYOR
                 </Link>
               </li>

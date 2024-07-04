@@ -2696,12 +2696,61 @@ section.dynamic-carousel .owl-item {
   list-style: none;
   font-size: 13px;
   line-height: 0;
+  height: 31px;
+  border-radius: 16px;
+  width: 236px;
+  text-align: center;
+  line-height: 3px;
+  padding: 14px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.2s ease-in-out;
 }
 .superviour ul {
   margin: 0;
   padding: 0;
 }
+
 .superviour li a {
-  color: #dc3545;
+  color: #fff;
   font-weight: 600;
+  text-align: center;
+  background: #ff5821;
+  width: 100%;
+  border-radius: 9px;
+  padding: 1px 10px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+}
+li.superviour li a:hover {
+  background: #092553;
+  color: #fff;
+}
+
+.active_surveyor a {
+  background: #092553 !important;
+}
+
+.row.how-it-works-data {
+  padding-left: 34px;
+}
+
+.row.how-it-works-data strong {
+  font-size: 14px;
+}
+.row.how-it-works-data span {
+  font-size: 14px;
+}
+
+.image-works {
+  width: 100%;
+}
+.services-works.pt-2 p {
+  font-size: 14px;
+}
+.services-works.pt-2 div {
+  font-weight: 600;
+  font-style: italic;
+  color: cornflowerblue;
 }
