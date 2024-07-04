@@ -145,6 +145,18 @@ const Navigation = () => {
                 >
                   <Link href="/sample-drawing">Sample Drawing</Link>
                 </li>
+                <li
+                  className={
+                    currentRoute === "/hire-a-land-plot-flat-surveyor"
+                      ? "active"
+                      : ""
+                  }
+                >
+                  <Link href="/hire-a-land-plot-flat-surveyor">
+                    Hire a land/plot/flat surveyor
+                  </Link>
+                </li>
+
                 <li className={currentRoute === "/contact" ? "active" : ""}>
                   <Link href="/contact">Contact Us</Link>
                 </li>

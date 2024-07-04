@@ -628,6 +628,9 @@ span.humbergs {
     gap: 2px;
     grid-template-columns: repeat(1, 1fr) !important;
   }
+  .superviour {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
