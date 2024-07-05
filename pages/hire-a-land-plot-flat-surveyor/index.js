@@ -29,22 +29,67 @@ const HireALandPlotFlat = () => {
                   well-informed decision about your land investment.
                 </p>
               </section>
+
               <section className="how-it-works pt-3 pb-2">
-                <h4 className="pb-2">How It Works</h4>
                 <div className="row">
                   <div className="col-md-7">
+                    <h4 className="pb-2">Our Service Includes:</h4>
+                    <div className="table-info">
+                      <table cellSpacing="1" cellPadding={1}>
+                        <tbody>
+                          {" "}
+                          <tr>
+                            <td>Videos Records</td>
+                            <td>
+                              Videos showcasing the journey from the main road
+                              (Hight way) to the plot and sub way to plot.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Live Video Call</td>
+                            <td>
+                              Our on-site surveyor will conduct live video call
+                              to client to showcase plot surroundings as client
+                              himself present on the plot for viewing.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Measurement</td>
+                            <td>
+                              Accurate measurement of the plot and distance from
+                              main roads by kilometers/meters.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Photos</td>
+                            <td>
+                              High-resolution photos capturing from different
+                              angle of the plot and surrounding environment.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Locality</td>
+                            <td>
+                              Information about the neighborhood, including
+                              nearby facilities such as Hospital, Schools, Parks
+                              etc.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Final Report</td>
+                            <td>
+                              A detailed PDF document summarizing all survey
+                              data, visual documentation, Google Pin map link,
+                              locality insights, and any additional findings to
+                              sent to client upon final payment.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h4 className="pb-2 pt-2">How It Works</h4>
                     <div className="row how-it-works-data">
                       <ol>
-                        <li>
-                          <div className="works-data">
-                            <strong>Initial Consultation:</strong>&nbsp;
-                            <span>
-                              Contact us to discuss your plot survey
-                              requirements and schedule an appointment with
-                              Agents or Plot owners.
-                            </span>
-                          </div>
-                        </li>
                         <li>
                           <div className="works-data">
                             <strong>Initial Consultation:</strong>&nbsp;

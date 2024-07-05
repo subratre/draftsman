@@ -2701,9 +2701,9 @@ section.dynamic-carousel .owl-item {
   line-height: 0;
   height: 31px;
   border-radius: 16px;
-  width: 236px;
+  width: 151px;
   text-align: center;
-  line-height: 3px;
+  line-height: 1px;
   padding: 14px 2px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -2757,4 +2757,52 @@ li.superviour li a:hover {
   font-weight: 600;
   font-style: italic;
   color: cornflowerblue;
+}
+
+.table-info table {
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+thead {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+th,
+td {
+  padding: 16px 20px;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+th,
+td {
+  transition: background-color 0.2s ease;
+}
+th:first-child,
+td:first-child {
+  padding-left: 24px;
+}
+th:last-child,
+td:last-child {
+  padding-right: 24px;
 }

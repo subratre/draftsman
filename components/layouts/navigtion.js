@@ -173,7 +173,7 @@ const Navigation = () => {
                 }
               >
                 <Link href="/hire-a-land-plot-flat-surveyor">
-                  HIRE A LAND/PLOT/FLAT SURVEYOR
+                  SURVEYOR FOR HIRE
                 </Link>
               </li>
             </ul>
