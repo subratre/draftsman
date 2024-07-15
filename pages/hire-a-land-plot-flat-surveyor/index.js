@@ -7,7 +7,17 @@ const HireALandPlotFlat = () => {
       <Head>
         <title>Draftsman | Hire a Land/Plot/Flat Surveyor</title>
       </Head>
-      <section className="calculaion-service"></section>
+      <section className="p-0 m-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29934.54185841177!2d85.83419187375839!3d20.307810194668168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a226fb69323%3A0x53b5c34a5153f8f!2sMancheswar%20Industrial%20Estate%2C%20Bhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1721010428632!5m2!1sen!2sin"
+          width="100%"
+          height="280"
+          style={{ border: 0 }}
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
       <section className="mt-0 py-5 pb-0">
         <div className="container">
           <div className="row">
@@ -15,7 +25,7 @@ const HireALandPlotFlat = () => {
               <section style={{ backgroundColor: "white" }} className="p-0">
                 <h2 style={{ fontSize: "xLarge", color: "#0094ff" }}>
                   {" "}
-                  ABOUT US
+                  HIRE US TODAY{" "}
                 </h2>
                 <p>
                   we specialize in providing thorough and detailed physical
@@ -87,61 +97,6 @@ const HireALandPlotFlat = () => {
                         </tbody>
                       </table>
                     </div>
-                    <h4 className="pb-2 pt-2">How It Works</h4>
-                    <div className="row how-it-works-data">
-                      <ol>
-                        <li>
-                          <div className="works-data">
-                            <strong>Initial Consultation:</strong>&nbsp;
-                            <span>
-                              Contact us to discuss your plot survey
-                              requirements and schedule an appointment with
-                              Agents or Plot owners.
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="works-data">
-                            <strong>Comprehensive Information:</strong>&nbsp;
-                            <span>
-                              We provide detailed data such as distance from
-                              main roads, visual documentation through videos
-                              and photos, an interactive Google Pin map, and
-                              insights into the surrounding locality and
-                              facilities.
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="works-data">
-                            <strong>Onsite video:</strong>&nbsp;
-                            <span>
-                              calling to the client for real time plot view as
-                              client present himself on site.
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="works-data">
-                            <strong>Documentation Compilation:</strong>&nbsp;
-                            <span>
-                              calling to the client for real time plot view as
-                              client present himself on site.
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="works-data">
-                            <strong>Delivery and Consultation:</strong>&nbsp;
-                            <span>
-                              You receive the PDF report and we provide a
-                              detailed review of findings, addressing any
-                              questions or concerns you may have.
-                            </span>
-                          </div>
-                        </li>
-                      </ol>
-                    </div>
                     <div className="services-works pt-2">
                       <h4 className="pb-2">Our Services</h4>
                       <ol>
@@ -207,8 +162,14 @@ const HireALandPlotFlat = () => {
                 <h4 className="pb-2">Contact Us</h4>
                 <p>
                   Ready to explore your potential plot with detailed information
-                  at your fingertips? Contact [<strong>9040759551</strong>]
-                  today to schedule your personalized plot survey. We are
+                  at your fingertips? Contact [
+                  <strong>
+                    {" "}
+                    <a href="https://wa.me/9040759551" target="_blank">
+                      9040759551
+                    </a>
+                  </strong>
+                  ] today to schedule your personalized plot survey. We are
                   committed to providing you with the insights you need to make
                   an informed decision.
                 </p>
