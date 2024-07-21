@@ -44,7 +44,7 @@ const HireALandPlotFlat = () => {
                 <div className="row">
                   <div className="col-md-7">
                     <h4 className="pb-2">Our Service Includes:</h4>
-                    <div className="table-info">
+                    <div className="table-info table-responsive">
                       <table cellSpacing="1" cellPadding={1}>
                         <tbody>
                           {" "}

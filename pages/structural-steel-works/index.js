@@ -241,7 +241,7 @@ const StructuralSteelWorks = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6" align="center">
+            <div class="col-lg-6 steel-works-thumbail" align="center">
               <div class="row">
                 <div className="gallery">
                   <div className="gallery-item">

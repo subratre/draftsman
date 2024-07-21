@@ -2850,4 +2850,36 @@ td:last-child {
     width: 272px;
     height: auto;
   }
+  .col-lg-6.steel-works-thumbail {
+    margin-top: 44px;
+  }
+
+  .footer-top {
+    font-size: 0.9rem;
+  }
+
+  .footer-top p {
+    font-size: 0.85rem !important;
+  }
+  ul.tensil-fabric {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  section.non-ul-data-project ul.tensil-fabric {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .p-5 {
+    padding: 0.85rem !important;
+  }
+  .form .form-group {
+    margin-bottom: 17px;
+  }
+  .row.mb-3 {
+    margin-bottom: 0 !important;
+  }
+  .values .card {
+    border: 0;
+    padding: 110px 20px 20px 20px;
+  }
 }
