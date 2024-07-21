@@ -2829,4 +2829,25 @@ td:last-child {
   section#values h2 {
     margin-bottom: 18px;
   }
+  .footer_owl .owl-item img {
+    display: block;
+    width: 54%;
+  }
+
+  #footer .footer-top h4 {
+    margin-top: 16px;
+  }
+  .somework ul {
+    columns: 1;
+  }
+  .gallery {
+    columns: 1;
+  }
+  section.dynamic-carousel img {
+    height: 252px;
+  }
+  .zoomInage img {
+    width: 272px;
+    height: auto;
+  }
 }

@@ -17,6 +17,10 @@ const Responsive = {
     items: 1.5,
     margin: 5,
   },
+  600: {
+    items: 3,
+    margin: 5,
+  },
   768: {
     items: 2.5,
     margin: 10,
@@ -35,7 +39,7 @@ export default function Slider() {
         loop={true}
         autoplay
         dots={true}
-        className="owl-carousel owl-theme"
+        className="owl-carousel owl-theme footer_owl"
       >
         <div className="item">
           <img src="/assets/images/04.jpg" />
