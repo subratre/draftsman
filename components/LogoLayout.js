@@ -47,8 +47,15 @@ const LogoLayout = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <i className="icofont-brand-whatsapp"></i>
-          +91 9040759551
+          <span className="whatsapp-icon-shell">
+            <span className="whatsapp-icon-circle">
+              <i className="icofont-brand-whatsapp"></i>
+            </span>
+          </span>
+          <span className="whatsapp-text-block">
+            <span className="whatsapp-text-title">WhatsApp</span>
+            <span className="whatsapp-text-subtitle">Click to Chat</span>
+          </span>
         </a>
       </div>
     </div>

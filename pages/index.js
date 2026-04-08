@@ -20,7 +20,6 @@ const HomePage = () => {
           position: "relative",
           zIndex: 1,
           padding: 0,
-          marginBottom: "-185px",
         }}
       >
         {/* 
