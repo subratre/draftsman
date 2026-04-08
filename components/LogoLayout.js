@@ -39,6 +39,18 @@ const LogoLayout = () => {
           </div>
         </div>
       </div>
+      <div className="free_consult">
+        <h4>FOR FREE CONSULTATION PLEASE CONTACT</h4>
+        <a
+          className="whatsapp-link"
+          href="https://wa.me/919040759551"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <i className="icofont-brand-whatsapp"></i>
+          +91 9040759551
+        </a>
+      </div>
     </div>
   );
 };

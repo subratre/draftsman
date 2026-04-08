@@ -50,7 +50,7 @@ const HomePage = () => {
                   <h3>DraftsMans</h3>
                   <h4>Why Choose Draftsmans.com?</h4>
                 </div>
-                <p align="Justify">
+                <p align="center">
                   Draftsmans.com is an emerging engineering solution company. We
                   offer wide-ranging solutions to the Structural &
                   Non-Structural Steel detailing needs of wide array of clients
@@ -143,8 +143,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="values" class="values">
-        <div class="container">
+      <section id="values" className="values">
+        <div className="container">
           <div align="Center">
             <h2>Some of Our Services</h2>
             <p align="justify">
@@ -160,112 +160,112 @@ const HomePage = () => {
               using SAP 2000, Idea Statica for complete projects.
             </p>
           </div>
-          <div class="row">
+          <div className="row">
             <div
-              class="col-md-6 d-flex align-items-stretch aos-init aos-animate"
+              className="col-md-6 d-flex align-items-stretch aos-init aos-animate"
               data-aos="fade-up"
             >
               <div
-                class="card"
+                className="card"
                 style={{
                   backgroundImage:
                     "url(assets/homephoto/non-structural-work.jpg)",
                 }}
               >
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href="">Non-Structure Steel Works</a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     We provide engineering Drawing services for non-structural &
                     Architectural metal segments for projects involving
                     Airports, Universities...
                   </p>
-                  <div class="read-more">
+                  <div className="read-more">
                     <Link href="/non-structural-steel-works">
-                      <i class="icofont-arrow-right"></i> Read More
+                      <i className="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
+              className="col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <div
-                class="card"
+                className="card"
                 style={{
                   backgroundImage: "url(assets/homephoto/structuralsteel.jpeg)",
                 }}
               >
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href="">Structure Steel Works</a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     Structural steel drawing services involve creating detailed
                     shop drawings and plans for the fabrication and erection...
                   </p>
-                  <div class="read-more">
+                  <div className="read-more">
                     <Link href="/structural-steel-works">
-                      <i class="icofont-arrow-right"></i> Read More
+                      <i className="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              class="col-md-6 d-flex align-items-stretch mt-4 aos-init"
+              className="col-md-6 d-flex align-items-stretch mt-4 aos-init"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               <div
-                class="card"
+                className="card"
                 style={{
                   backgroundImage:
                     "url(assets/homephoto/tensilstructuralwork.jpg)",
                 }}
               >
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href="">Tensile Structural Works</a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     Tensile structure design and drawing services involve
                     creating plans and specifications for structures that
                     utilize tensile fabric...
                   </p>
-                  <div class="read-more">
+                  <div className="read-more">
                     <Link href="/tensile-fabric-structure">
-                      <i class="icofont-arrow-right"></i> Read More
+                      <i className="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              class="col-md-6 d-flex align-items-stretch mt-4 aos-init"
+              className="col-md-6 d-flex align-items-stretch mt-4 aos-init"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               <div
-                class="card"
+                className="card"
                 style={{ backgroundImage: "url(assets/images/values-4.jpg)" }}
               >
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href="">Design Calculation And Analysis Service</a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     We provide complete engineering solution including design
                     calculation for steel structure or Non- structure works with
                     the facility...
                   </p>
-                  <div class="read-more">
+                  <div className="read-more">
                     <Link href="/design-calculation-and-analysis-service">
-                      <i class="icofont-arrow-right"></i> Read More
+                      <i className="icofont-arrow-right"></i> Read More
                     </Link>
                   </div>
                 </div>
